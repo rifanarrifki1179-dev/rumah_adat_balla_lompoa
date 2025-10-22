@@ -1,0 +1,135 @@
+/* =========================================
+   CSS UNTUK ARTIKEL (article.css)
+   ========================================= */
+
+/* Pengaturan Dasar Halaman */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Shell / Pembungkus Konten Utama */
+.shell {
+  max-width: 900px;
+  margin: 20px auto; /* Membuat konten berada di tengah */
+  padding: 0 20px;
+}
+
+/* Header / Judul */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem; /* Ukuran font judul utama */
+  color: #111;
+}
+
+header .muted {
+  color: #666;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* Konten Artikel */
+.content h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  text-align: justify; /* Membuat teks rata kiri-kanan */
+}
+
+.content ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+/* Tombol Aksi (Kembali) */
+.page-actions {
+  margin-bottom: 20px;
+}
+
+a.back-home {
+  text-decoration: none;
+  color: #007bff; /* Warna biru untuk link */
+  font-weight: bold;
+}
+
+a.back-home:hover {
+  text-decoration: underline;
+}
+
+/* Gambar dan Keterangan */
+figure {
+  margin: 30px 0;
+  padding: 0;
+  text-align: center; /* Membuat gambar dan caption di tengah */
+}
+
+figure img {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Blok Kode */
+pre {
+  background-color: #2d2d2d; /* Latar belakang gelap untuk kode */
+  color: #f8f8f2; /* Teks terang */
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto; /* Scroll jika kode terlalu panjang */
+  font-family: "Courier New", Courier, monospace;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Panorama 360° */
+.mini-panorama {
+  width: 100%;
+  height: 450px; /* Atur tinggi viewer panorama */
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  color: #777;
+  font-size: 0.9rem;
+}
