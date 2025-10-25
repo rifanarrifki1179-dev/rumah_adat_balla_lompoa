@@ -25,11 +25,11 @@
       <h2>Konsep 1: Geometri Bangun Datar (2D)</h2>
       <p>Di Balla Lompoa, terlihat banyak bentuk <strong>persegi</strong>, <strong>persegi panjang</strong>, <strong>segitiga</strong>, dan <strong>belah ketupat</strong> dalam struktur bangunan dan ornamen. Dinding rumah lama menggunakan papan kayu siku-siku yang membentuk pola kisi persegi atau persegi panjang. Pondasi dan alas bangunan inti juga berbentuk persegi atau persegi panjang. Ornamen ukiran pada balustrade dan dinding memuat motif segitiga dan belah ketupat yang diulang.</p>
       <figure>
-        <img src="images/balla_lompoa_atap.jpg" alt="Atap Balla Lompoa berbentuk segitiga" />
+        <img src="../assets/images/atap_balla_lompoa.jpg" alt="Atap Balla Lompoa berbentuk segitiga"/>
         <figcaption>Visualisasi atap Balla' Lompoa yang menerapkan konsep geometri segitiga.</figcaption>
       </figure>
       <figure>
-        <img src="images/balla_lompoa_jendela.jpg" alt="Jendela Balla Lompoa berbentuk persegi panjang" />
+        <img src="../assets/images/jendela_balla_lompoa.jpg" alt="Jendela Balla Lompoa berbentuk persegi panjang" />
         <figcaption>Jendela dan dinding bangunan menerapkan konsep persegi panjang.</figcaption>
       </figure>
 
@@ -47,15 +47,13 @@
 
       <h3>Contoh Panorama 360°</h3>
       <p>Memutar panorama berikut membantu memvisualisasikan bagaimana ruang Balla' Lompoa terasa ketika berada di dalamnya. Gunakan pointer atau sentuhan untuk menelusuri seluruh ruangan.</p>
-      <div class="mini-panorama">
-                <div id="mini-panorama"></div>
-      </div>
+      <div id="mini-panorama" style="width:100%; height:450px;"></div>
 
       <h2>Konsep 2: Simetri dan Keseimbangan</h2>
       <p>Rumah Adat Balla' Lompoa mengandung prinsip <strong>simetri garis (refleksi)</strong>. Bangunan utama memiliki susunan tiang, jendela, pintu, dan tangga yang cenderung simetris pada sisi kiri dan kanan jika ditarik garis sumbu tengah. Ornamen dekoratif pada sisi kiri dan kanan juga memiliki pola yang sama (refleksi) agar tampak seimbang. Simetri ini melambangkan keteraturan, harmoni, dan keadilan, serta penting untuk keseimbangan beban struktur.</p>
       
       <figure>
-        <img src="images/balla_lompoa_tangga.jpg" alt="Tangga Balla Lompoa yang simetris" />
+        <img src="../assets/images/simetris_tangga_rumah.jpg" alt="Tangga Balla Lompoa yang simetris" />
         <figcaption>Tangga utama Balla' Lompoa yang menunjukkan prinsip simetri refleksi.</figcaption>
       </figure>
 
@@ -63,7 +61,7 @@
       <p>Ukuran ruang-ruang seperti ruang inti, ruang tamu, dan teras dibuat dengan <strong>skala relatif</strong> agar proporsinya harmonis. Tiang-tiang utama menggunakan <strong>modul</strong> ukuran tertentu (jarak antar tiang, tinggi tiang) agar proporsinya harmonis. Denah struktur sering menggunakan modul dasar sehingga bagian-bagian bangunan bisa dibagi menjadi unit-unit yang sama. Penggunaan modul mempermudah perancangan dan pembangunan.</p>
 
       <figure>
-        <img src="images/balla_lompoa_denah.jpg" alt="Denah Balla Lompoa" />
+        <img src="../assets/images/denah_balla_lompoa.jpg" alt="Denah Balla Lompoa" />
         <figcaption>Denah Balla' Lompoa yang menunjukkan penerapan proporsi dan pembagian ruang modular.</figcaption>
       </figure>
 
@@ -71,7 +69,7 @@
       <p>Struktur Balla' Lompoa menerapkan konsep geometri tiga dimensi. Bagian lantai utama dan ruang inti menggunakan bentuk <strong>balok</strong> (panjang × lebar × tinggi). Atap rumah berbentuk <strong>prisma segitiga</strong> (struktur atap kuda-kuda). Tiang-tiang vertikal dan balok penghubung (balkar) membentuk kerangka ruang 3D yang kokoh untuk menunjang bangunan sebagai rumah panggung.</p>
       
       <figure>
-        <img src="images/balla_lompoa_tiang.jpg" alt="Tiang penyangga Balla Lompoa" />
+        <img src="../assets/images/tiang_balla_lompoa.jpg" alt="Tiang penyangga Balla Lompoa" />
         <figcaption>Tiang-tiang penyangga (balok vertikal) yang membentuk struktur ruang 3D di bawah rumah.</figcaption>
       </figure>
 
@@ -92,7 +90,7 @@
       <p>Ornamentasi ukiran kayu di bagian dinding, balustrade tangga, dan pintu sering menggunakan <strong>motif yang diulang (pattern)</strong>. Pola dekoratif ini disusun dalam baris-baris atau kolom berulang, memberikan efek ritmis dan konsistensi visual. Pola pengulangan ini melambangkan kesinambungan tradisi, keteraturan, dan kesatuan budaya.</p>
       
       <figure>
-        <img src="images/balla_lompoa_pagar.jpg" alt="Pola pagar Balla Lompoa" />
+        <img src="../assets/images/jendela_balla_lompoa_1.jpg" alt="Pola pagar Balla Lompoa" />
         <figcaption>Pola berulang (deret) yang terlihat pada pagar balkon Balla' Lompoa.</figcaption>
       </figure>
 
@@ -111,13 +109,13 @@
     pannellum.viewer('mini-panorama', {
       type: 'equirectangular',
       // Ganti 'panos/image0.jpg' dengan file panorama Balla' Lompoa Anda
-      panorama: 'panos/image0.jpg', 
+      panorama: "../assets/360_images/depan_rumah_4.jpg", 
       autoLoad: true,
       showZoomCtrl: false,
       compass: false,
       hfov: 110,
       pitch: 0,
-      yaw: 120
+      yaw: 0
     });
   </script>
 </body>
